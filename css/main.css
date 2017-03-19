@@ -1,0 +1,35 @@
+body {
+	padding-top: 50px;
+}
+
+.container.page {
+	/* min-height: calc( 100%  30px ); */ /* If you really want "parallax". */
+	padding-bottom: 30px;
+	border-bottom: thin solid black;
+}
+
+.anchor-tag {
+	position: relative;
+	top: -50px;
+	width: 1px;
+	height: 1px;
+}
+
+.tab-pane {
+	padding: 10px;
+	font-size: 15px;
+}
+
+.tab-pane > p {
+	text-align: justify;
+}
+
+#main {
+	position: relative;
+}
+
+a.fake {
+	cursor: pointer;
+	color: inherit;
+	text-decoration: inherit;
+}
